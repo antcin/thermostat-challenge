@@ -9,13 +9,11 @@
 
   <body>
     <section>
-      <h1>Current temperature: <span id="current-temperature"></span></h1>
-      <select id='current-city'>
-        <option value='london'>London</option>
-        <option value="new%20york">New York</option>
-        <option value="paris">Paris</option>
-        <option value="tokyo">Tokyo</option>
-      </select>
+      <h2>Outside Temperature: <span id="outside-temperature"></span></h2>
+      <h1>Inside Temperature: <span id="temperature"></span></h1>
+      <form id="select-city">
+        <input id="current-city" type="text" placeholder="Enter a City"></input>
+        <input type="submit"></input>
       <p>
         <button id="temperature-up">+</button>
         <button id="temperature-down">-</button>
