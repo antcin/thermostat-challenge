@@ -2,6 +2,8 @@
 <html>
   <head>
     <link rel="stylesheet" type="text/css" href="public/style.css">
+    <link href='https://fonts.googleapis.com/css?family=Orbitron' rel='stylesheet' type='text/css'>
+
     <meta charset="utf-8">
     <title>Thermostat</title>
   </head>
@@ -11,7 +13,7 @@
     <section>
 
       <h1>Outside Temperature: <span id="outside-temperature"></span></h1>
-      <div class="circle"><span id="temperature"></span>
+      <div style="font-family: 'Orbitron', sans-serif;" class="fancy"><span id="temperature"></span>
 
       </div>
 
@@ -20,8 +22,11 @@
         <input id="current-city" type="text" placeholder="Enter a City"></input>
         <input type="submit"></input>
       <p>
-        <button id="temperature-up">+</button>
-        <button id="temperature-down">-</button>
+
+        <button class="button" id="temperature-up"><span class="triangle">▲</span>
+        </button>
+        <button class="button" id="temperature-down"><span class="triangle">▼</span></button>
+
         <button id="temperature-reset">reset</button>
         Power Saving Mode is <span id="power_saving_status">on</span>
         <button id="powersaving-on">PSM on</button>

@@ -28,7 +28,7 @@ $(document).ready(function() {
   });
 
   function updateTemp() {
-    $('#temperature').text(thermostat.temperature);
+    $('#temperature').text(thermostat.temperature).append('&#8451;');;
     $('#temperature').attr('class', thermostat.energyUsage());
   };
 
@@ -44,7 +44,7 @@ $(document).ready(function() {
    var token = '&appid=a3d9eb01d4de82b9b8d0849ef604dbed';
    var units = '&units=metric';
    $.get(url + token + units, function(data) {
-     $('#outside-temperature').text(data.main.temp);
+     $('#outside-temperature').text(data.main.temp).append('&#8451;');
   });
  }
 });
