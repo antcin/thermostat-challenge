@@ -51,7 +51,7 @@ Programming languages used
 Improvements required
 ----
 - Edge cases
- - When switching from power saving mode on to off is , reset maximum temperature to 25°C.
+  - When switching from power saving mode on to off is , reset maximum temperature to 25°C.
 - CSS Design.
 - Implement persistence.
 
