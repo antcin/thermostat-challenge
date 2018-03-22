@@ -3,9 +3,32 @@
 }
 
 .medium-usage {
-  color: black;
+  color: white;
 }
 
 .high-usage {
   color: red;
 }
+
+body {
+    background-color: black;
+
+}
+
+.courier {
+	font-family: Courier;
+	color: #32CD32;
+}
+
+.circle {
+  width: 400px;
+  height: 400px;
+  border-radius: 50%;
+  font-size: 220px;
+  color: white;
+  line-height: 400px;
+  text-align: center;
+  background: orange;
+}
+
+/* how to put a circle border around temp, how to centre, how to load pics and background.
