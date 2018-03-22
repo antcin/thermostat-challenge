@@ -1,16 +1,20 @@
 $(document).ready(function() {
   var thermostat = new Thermostat();
-  $('#temperature').text(thermostat.temperature);
+  updateTemp()
 
-  $('#temperature-up').on('click', function() {
+  $('#temperature-up').click(function() {
     thermostat.up();
-    $('#temperature').text(thermostat.temperature);
+    updateTemp()
   })
 
   $('#temperature-down').click(function() {
     thermostat.down();
-    $('#temperature').text(thermostat.temperature);
+    updateTemp()
   })
+
+  function updateTemp() {
+    $('#temperature').text(thermostat.temperature);
+  }
 
 
 })
