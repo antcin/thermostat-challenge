@@ -12,7 +12,9 @@ $ git clone git@github.com:[antcin]/thermostat-challenge.git
 $ cd Thermostat.js
 $ open index.html
 ```
-How to run the feature test:
+How to run the feature test
+----
+
 ```sh
 $ cd Thermostat.js
 $ open SpecRunner.html
